@@ -1,13 +1,14 @@
 public class Book {
+    String name;
 
-     public int sum ( int num1, int num2){
+    // Constructor
+    public Book(String name) {
+        this.name = name;
+    }
 
-         return num1 + num2;
-     }
-
-    public static void main(String[] args) {
-         Book b = new Book();
-        System.out.println( b.sum(9,8));
-
+    // Method
+    public void sound() {
+        System.out.println("Animal makes a sound");
     }
 }
+
